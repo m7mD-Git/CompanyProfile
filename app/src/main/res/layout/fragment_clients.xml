@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.qalex.companyprofile.Clients">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <com.qalex.companyprofile.CircleImageView
+                android:id="@+id/FirstLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_shape"
+                android:src="@drawable/carrefour"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="5dp" />
+            <TextView
+                android:id="@+id/FristClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:textColor="@color/pink"
+                android:text="@string/first_client"
+                android:textSize="20sp" />
+
+            <com.qalex.companyprofile.CircleImageView
+                android:id="@+id/SecondLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/btn_shape"
+                android:src="@drawable/ajad"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="5dp" />
+            <TextView
+                android:id="@+id/SecondClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/pink"
+                android:text="@string/second_client"
+                android:textSize="20sp" />
+
+            <com.qalex.companyprofile.CircleImageView
+                android:id="@+id/ThirdLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/btn_shape"
+                android:src="@drawable/panda"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="5dp"
+              />
+
+            <TextView
+                android:id="@+id/ThirdClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:textColor="@color/pink"
+                android:text="@string/third_client"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <com.qalex.companyprofile.CircleImageView
+                android:id="@+id/ForthLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/btn_shape"
+                android:src="@drawable/toshiba"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="5dp" />
+
+            <TextView
+                android:id="@+id/ForthClient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/pink"
+                android:text="@string/forth_client"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

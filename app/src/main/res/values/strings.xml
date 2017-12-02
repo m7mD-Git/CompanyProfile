@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Quantum Tech</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Clients -->
+
+    <string name="second_client">AJAD Data Center Solution</string>
+    <string name="first_client">Carrefour Mall of Egypt</string>
+    <string name="third_client">Hyper Panda Mall</string>
+    <string name="forth_client">Toshiba Company</string>
+
+    <!-- Address -->
+    <string name="address">77 مصطفى النحاس، المنطقة الثامنة، مدينة نصر، محافظة القاهرة</string>
+
+    <!-- contacts -->
+
+    <string name="phone"><u>+201069512534</u></string>
+    <string name="mail"><u>info@quantum-tech.com</u></string>
+    <string name="google"><u>plus.google.com/QuantumTech</u></string>
+    <string name="face"><u>facebook.com/QuantumTech</u></string>
+    <string name="twitter"><u>twitter.com/QuantumTech</u></string>
+    <string name="linkedin"><u>linkedin.com/in/QuantumTech</u></string>
+
+    <!-- About -->
+    <string name="descriptionName">We Are Quantum Tech</string>
+    <string name="description"><b>Quantum Tech</b> is an innovative software company that provide<b> mobile and web</b> solutions in different platforms.
+
+        <b>While</b> we have a wide experience in working with different web technologies, we believe that our success is not related to our technical skills only, but understanding requirements in depth, walking all extra miles, dedication, honesty and high ethics are what make us truly successful.
+    </string>
+
+    <string name="copyright">© All Copy Rights Reserved by Quantum Tech 2017</string>
+
+</resources>
